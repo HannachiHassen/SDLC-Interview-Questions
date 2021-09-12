@@ -1,4 +1,4 @@
-# SDLC-Interview-Questions
+# SDLC Interview Questions
 
 ## What is verification
 Verification ensures the product is designed to deliver all functionality to the customer; it typically involves reviews and meetings to evaluate documents, plans, code, requirements, and specifications; this can be done with checklists, issues list, and walkthroughs and inspection meetings.
@@ -50,6 +50,50 @@ Quality Assurance ensures all parties concerned with the project adhere to the p
 ## Standards and templates - what is supposed to be in a document 
 All documents should be written to a certain standard and template. Standards and templates maintain document uniformity. It also helps in learning where information is located, making it easier for a user to find what they want. 
 
+## What are the different levels of testing
+Each level of testing is either considered black or white box testing. 
+
+## What is black box testing
+Black box testing is functional testing, not based on any knowledge of internal software design or code. Black box testing is based on requirements and functionality. 
+
+## What is white box testing
+White box testing is based on knowledge of the internal logic of an application's code. Typically done by developers.
+
+## What is unit testing
+Unit testing is the first level of dynamic testing and is first the responsibility of developers and then that of the test engineers. Unit testing is performed after the expected test results are met or differences are explainable/acceptable. 
+ 
+## What is functional testing
+Functional testing is black-box type of testing geared to functional requirements of an application. Test engineers *should* perform functional testing. 
+
+## What is integration testing
+Upon completion of unit testing, integration testing begins. Integration testing is black box testing. The purpose of integration testing is to ensure distinct components of the application still work in accordance with customer requirements. Test cases are developed with the express purpose of exercising the interfaces between the components. This activity is carried out by the test team. Integration testing is considered complete, when actual results and expected results are either in line or differences are explainable/acceptable based on client input.
+
+## What is incremental integration testing 
+Incremental integration testing is continuous testing of an application as new functionality is recommended. This may require that various aspects of an application's functionality are independent enough to work separately, before all parts of the program are completed, or that test drivers are developed as needed. This type of testing may be performed by programmers, software engineers, or test engineers.
+
+## What is system testing
+System testing is black box testing, performed by the Test Team, the purpose of system testing is to validate an application's accuracy and completeness in performing the functions as designed. System testing is deemed complete when actual results and expected results are either in line or differences are explainable or acceptable, based on client input. Upon completion of integration testing, system testing is started. 
+
+## What is Gray Box testing
+A style of testing that attempts to blend both “white box” and “black box” test strategies.
+
+## What is end-to-end testing 
+Similar to system testing, the *macro* end of the test scale is testing a complete application in a situation that mimics real world use, such as interacting with a database, using network communication, or interacting with other hardware, application, or system. 
+
+## What is regression testing 
+Regression testing is like retesting after fixing or modification. Expected results from are compared to results of the software under test
+
+## What is sanity testing 
+Sanity testing is performed whenever cursory testing is sufficient to prove the application is functioning according to specifications. This level of testing is a subset of regression testing. It normally includes a set of core tests of basic GUI functionality to demonstrate connectivity to the database, application servers, printers, etc.
+
+## What is performance testing? 
+Performance testing verifies loads, volumes, and response times, as defined by requirements. 
+
+## What is load testing? 
+Load testing is testing an application under heavy loads, such as the testing of a web site under a range of loads to determine at what point the system response time will degrade or fail. 
+
+## What is stress testing? 
+Stress testing is testing that investigates the behavior of software (and hardware) under extraordinary operating conditions. For example, when a web server is stress tested, testing aims to find out how many users can be on-line, at the same time, without crashing the server
 
 
 ## Authors
