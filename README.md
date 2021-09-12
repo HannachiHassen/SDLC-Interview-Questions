@@ -32,6 +32,7 @@ A software project test plan is a document that describes the objectives, scope,
 
 ## What is a test case 
 A test case is a document that describes an input, action, or event and its expected result, in order to determine if a feature of an application is working correctly. A test case should contain particulars such as a... 
+
 •   Test case identifier
 •   Test case name
 •   Objective 
