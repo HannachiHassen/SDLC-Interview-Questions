@@ -95,6 +95,44 @@ Load testing is testing an application under heavy loads, such as the testing of
 ## What is stress testing? 
 Stress testing is testing that investigates the behavior of software (and hardware) under extraordinary operating conditions. For example, when a web server is stress tested, testing aims to find out how many users can be on-line, at the same time, without crashing the server
 
+## What is acceptance testing? 
+Acceptance testing is black box testing that gives the client/customer/project manager the opportunity to verify the system functionality and usability prior to the system being released to production. The acceptance test is the responsibility of the client/customer or project manager; however, it is conducted with the full support of the project team. The test team also works with the client/customer/project manager to develop the acceptance criteria. 
+
+## What is alpha testing? 
+Alpha testing is testing of an application when the development is nearing completion and when the application is not steady. Minor design changes can still be made as a result of alpha testing.
+
+## What is beta testing? 
+Beta testing is testing an application when development and testing are essentially completed, and final bugs and problems need to be found before the final release. Beta testing is typically performed by end-users or others, not programmers, software engineers, or test engineers.
+
+## What is Traceability matrix?
+The requirements specified by the users in the business requirement document may not be exactly translated into a functional specification. There will be a trace on between functional specification and business requirements. It is done on a one-to-one basis. This helps finding the gap between the documents. These gaps are the closed by the author of the Functional specifications (FS) or deferred after discussions 
+
+Testers should understand these gaps and use them after getting this signed off from the author of the FS. The final FS form may vary from the original
+
+## What is configuration management? 
+Configuration management (CM) covers the tools and processes used to control, coordinate and track code, requirements, documentation, problems, change requests, designs, tools, compilers, libraries, patches, changes made to them and who makes the changes
+
+## What can be done if requirements are changing continuously? 
+Work with management early on to understand how requirements might change, so that alternate test plans and strategies can be worked out in advance. It is helpful if the application's initial design allows for some adaptability, so that later changes do not require redoing the application from scratch entails.
+
+## What if the application has functionality that wasn't in the requirements? 
+It may take serious effort to determine if an application has significant unexpected or hidden functionality, which it would indicate deeper problems in the software development process. If the functionality isn't necessary to the purpose of the application, it should be removed, as it may have unknown impacts or dependencies that were not taken into account by the designer or the customer. 
+
+## Why do you recommend that we test during the design phase? 
+Because testing during the design phase can prevent defects later on. We recommend verifying three things... 
+1. Verify the design is good, efficient, compact, testable and maintainable. 
+2. Verify the design meets the requirements and is complete (specifies all relationships between modules, how to pass data, what happens in exceptional circumstances, starting state of each module and how to guarantee the state of each module). 
+3. Verify the design incorporates enough memory, I/O devices and quick enough runtime for the final product.
+
+## What makes a good test engineer? 
+Has a "test to break" attitude, 
+•   Takes the point of view of the customer, 
+•   Has a strong desire for quality, 
+•   Has an attention to detail, He's also 
+•   Tactful and diplomatic and 
+•   Has good a communication skill, both oral and written. And he 
+•   Has previous software development experience, too.
+
 
 ## Authors
 
