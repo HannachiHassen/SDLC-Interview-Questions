@@ -126,12 +126,12 @@ Because testing during the design phase can prevent defects later on. We recomme
 
 ## What makes a good test engineer? 
 Has a "test to break" attitude, 
-• Takes the point of view of the customer, 
-• Has a strong desire for quality, 
-• Has an attention to detail, He's also 
-• Tactful and diplomatic and 
-• Has good a communication skill, both oral and written. And he 
-• Has previous software development experience, too.
+. Takes the point of view of the customer,
+. Has a strong desire for quality, 
+. Has an attention to detail, He's also 
+. Tactful and diplomatic and 
+. Has good a communication skill, both oral and written. And he 
+. Has previous software development experience, too.
 
 ## Why are there so many software bugs? 
 Generally speaking, there are bugs in software because of unclear requirements, software complexity, programming errors, changes in requirements, errors made in bug tracking, time pressure, poorly documented code and/or bugs in tools used in software development.
