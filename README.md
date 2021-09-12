@@ -33,11 +33,11 @@ A software project test plan is a document that describes the objectives, scope,
 ## What is a test case 
 A test case is a document that describes an input, action, or event and its expected result, in order to determine if a feature of an application is working correctly. A test case should contain particulars such as a... 
 
-. Test case identifier
-. Test case name
-. Objective 
-. Input data requirements/steps 
-. Expected results. 
+1. Test case identifier
+2. Test case name
+3. Objective 
+4. Input data requirements/steps 
+5. Expected results. 
 Please note, the process of developing test cases can help find problems in the requirements or design of an application, since it requires you to completely think through the operation of the application. For this reason, it is useful to prepare test cases early in the development cycle, if possible. 
 
 
@@ -152,12 +152,12 @@ In this situation the best bet is to have test engineers go through the process 
 
 ## How do you know when to stop testing? 
 This can be difficult to determine. Many modern software applications are so complex and run in such an interdependent environment, that complete testing can never be done. Common factors in deciding when to stop are... 
-. Deadlines, e.g. release deadlines, testing deadlines; 
-. Test cases completed with certain percentage passed; 
-. Test budget has been depleted; 
-. Coverage of code, functionality, or requirements reaches a specified point; 
-. Bug rate falls below a certain level; or 
-. Beta or alpha testing period ends.
+1. Deadlines, e.g. release deadlines, testing deadlines; 
+2. Test cases completed with certain percentage passed; 
+3. Test budget has been depleted; 
+4. Coverage of code, functionality, or requirements reaches a specified point; 
+5. Bug rate falls below a certain level; or 
+6. Beta or alpha testing period ends.
 
 ## Authors
 
