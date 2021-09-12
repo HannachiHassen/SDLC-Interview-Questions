@@ -133,6 +133,31 @@ Has a "test to break" attitude,
 •   Has good a communication skill, both oral and written. And he 
 •   Has previous software development experience, too.
 
+## Why are there so many software bugs? 
+Generally speaking, there are bugs in software because of unclear requirements, software complexity, programming errors, changes in requirements, errors made in bug tracking, time pressure, poorly documented code and/or bugs in tools used in software development.
+
+## Give me five common problems that occur during software development. 
+Poorly written requirements, unrealistic schedules, inadequate testing, adding new features after development is underway and poor communication. 
+1. Requirements are poorly written when requirements are unclear, incomplete, too general, or not testable; therefore, there will be problems. 
+2. The schedule is unrealistic if too much work is crammed in too little time. 
+3. Software testing is inadequate if none knows whether or not the software is any good until customers complain or the system crashes. 
+4. It's extremely common that new features are added after development is underway. 
+5. Miscommunication either means the developers don't know what is needed, or customers have unrealistic expectations and therefore problems are guaranteed.
+
+## What should be done after a bug is found? 
+When a bug is found, it needs to be communicated and assigned to developers that can fix it. After the problem is resolved, fixes should be re-tested.
+
+## What if the software is so buggy it can't be tested at all? 
+In this situation the best bet is to have test engineers go through the process of reporting whatever bugs or problems initially show up, with the focus being on critical bugs. Since this type of problem can severely affect schedules and indicates deeper problems in the software development process, such as insufficient unit testing, insufficient integration testing, poor design, improper build or release procedures, managers should be notified and provided with some documentation as evidence of the problem. 
+
+## How do you know when to stop testing? 
+This can be difficult to determine. Many modern software applications are so complex and run in such an interdependent environment, that complete testing can never be done. Common factors in deciding when to stop are... 
+•   Deadlines, e.g. release deadlines, testing deadlines; 
+•   Test cases completed with certain percentage passed; 
+•   Test budget has been depleted; 
+•   Coverage of code, functionality, or requirements reaches a specified point; 
+•   Bug rate falls below a certain level; or 
+•   Beta or alpha testing period ends.
 
 ## Authors
 
