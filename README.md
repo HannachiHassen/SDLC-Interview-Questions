@@ -38,6 +38,7 @@ A test case is a document that describes an input, action, or event and its expe
 3. Objective 
 4. Input data requirements/steps 
 5. Expected results. 
+
 Please note, the process of developing test cases can help find problems in the requirements or design of an application, since it requires you to completely think through the operation of the application. For this reason, it is useful to prepare test cases early in the development cycle, if possible. 
 
 
