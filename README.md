@@ -125,13 +125,13 @@ Because testing during the design phase can prevent defects later on. We recomme
 3. Verify the design incorporates enough memory, I/O devices and quick enough runtime for the final product.
 
 ## What makes a good test engineer? 
-Has a "test to break" attitude, 
-. Takes the point of view of the customer,
-. Has a strong desire for quality, 
-. Has an attention to detail, He's also 
-. Tactful and diplomatic and 
-. Has good a communication skill, both oral and written. And he 
-. Has previous software development experience, too.
+Has a "test to break" attitude. 
+1. Takes the point of view of the customer,
+2. Has a strong desire for quality, 
+3. Has an attention to detail, He's also 
+4. Tactful and diplomatic and 
+5. Has good a communication skill, both oral and written. And he 
+6. Has previous software development experience, too.
 
 ## Why are there so many software bugs? 
 Generally speaking, there are bugs in software because of unclear requirements, software complexity, programming errors, changes in requirements, errors made in bug tracking, time pressure, poorly documented code and/or bugs in tools used in software development.
@@ -152,12 +152,12 @@ In this situation the best bet is to have test engineers go through the process 
 
 ## How do you know when to stop testing? 
 This can be difficult to determine. Many modern software applications are so complex and run in such an interdependent environment, that complete testing can never be done. Common factors in deciding when to stop are... 
-• Deadlines, e.g. release deadlines, testing deadlines; 
-• Test cases completed with certain percentage passed; 
-• Test budget has been depleted; 
-• Coverage of code, functionality, or requirements reaches a specified point; 
-• Bug rate falls below a certain level; or 
-• Beta or alpha testing period ends.
+1. Deadlines, e.g. release deadlines, testing deadlines; 
+1. Test cases completed with certain percentage passed; 
+1. Test budget has been depleted; 
+1. Coverage of code, functionality, or requirements reaches a specified point; 
+1. Bug rate falls below a certain level; or 
+1. Beta or alpha testing period ends.
 
 ## Authors
 
