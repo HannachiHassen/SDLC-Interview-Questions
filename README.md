@@ -6,19 +6,66 @@ Verification ensures the product is designed to deliver all functionality to the
 ## What is Validation
 Validation ensures that functionality, as defined in requirements, is the intended behavior of the product; validation typically involves actual testing and takes place after verifications are completed. 
 
-## What is walkthrough
-A walkthrough is an informal meeting for evaluation or informational purposes. A walkthrough is also a process at an abstract level. It's the process of inspecting software code by following paths through the code (as determined by input conditions and choices made along the way). The purpose of code walkthroughs is to ensure the code fits the purpose. Walkthroughs also offer opportunities to assess an individual's or team's competency. 
+## What is the difference between build and release 
+Build: It is an installable software that is given to the testing team by the development team. 
+Release: It is an installable software that is handed over to the customer by the tester or developer. 
 
 ## What is Quality
 Quality software is software that is reasonably bug-free, delivered on time and within budget, meets requirements and expectations and is maintainable
 
-## What is good code? 
+## What is good code 
 A good code is code that works, is free of bugs and is readable and maintainable. 
 
-## What is good design? 
+## What is good design 
 Design could mean to many things, but often refers to functional design or internal design. Good functional design is indicated by software functionality can be traced back to customer and end-user requirements. Good internal design is indicated by software code whose overall structure is clear, understandable, easily modifiable and maintainable; is robust with sufficient error handling and status logging capability; and works correctly when implemented. 
 
-## What is software life cycle? 
+## Why do you recommend that we test during the design phase? 
+Because testing during the design phase can prevent defects later on. We recommend verifying three things... 
+1. Verify the design is good, efficient, compact, testable and maintainable. 
+2. Verify the design meets the requirements and is complete (specifies all relationships between modules, how to pass data, what happens in exceptional circumstances, starting state of each module and how to guarantee the state of each module). 
+3. Verify the design incorporates enough memory, I/O devices and quick enough runtime for the final product.
+
+## What is software quality assurance 
+Software Quality Assurance is oriented to *prevention*. It involves the entire software development process. Prevention is monitoring and improving the process, making sure any agreed-upon standards and procedures are followed and ensuring problems are found and dealt with. 
+
+## What is quality assurance 
+Quality Assurance ensures all parties concerned with the project adhere to the process and procedures, standards and templates and test readiness reviews. A lot will depend on team leads or managers, feedback to developers and communications among customers, managers and testers.
+
+## What is the difference between the QA and software testing
+The role of QA (Quality Assurance) is to monitor the quality of the "process" used to produce the software. While the software testing, is the process of ensuring the functionality of final product meets the user's requirement. 
+
+## List out the roles of Software Quality Assurance engineer
+A software quality assurance engineer tasks may include following things amongst others 
+1.	Writing source code
+2.	Software design
+3.	Control of source code
+4.	Reviewing code
+5.	Change management
+6.	Configuration management
+7.	Integration of software
+8.	Program testing
+9.	Release management process
+
+## What makes a good test engineer 
+Has a "test to break" attitude. 
+1. Takes the point of view of the customer,
+2. Has a strong desire for quality, 
+3. Has an attention to detail, He's also 
+4. Tactful and diplomatic and 
+5. Has good a communication skill, both oral and written. And he 
+6. Has previous software development experience, too.
+
+## List out various tools required to support testing during development of the application
+To support testing during development of application following tools can be used: 
+1.	Test Management Tools: JIRA, Quality Center etc.
+2.	Defect Management Tools: Test Director, Bugzilla
+3.	Project Management Tools: SharePoint
+4.	Automation Tools: RFT, QTP, and WinRunner, Selenium
+
+## What is walkthrough
+A walkthrough is an informal meeting for evaluation or informational purposes. A walkthrough is also a process at an abstract level. It's the process of inspecting software code by following paths through the code (as determined by input conditions and choices made along the way). The purpose of code walkthroughs is to ensure the code fits the purpose. Walkthroughs also offer opportunities to assess an individual's or team's competency. 
+
+## What is software life cycle 
 Software life cycle begins when a software product is first conceived and ends when it is no longer in use. It includes phases like initial concept, requirements analysis, functional design, internal design, documentation planning, test planning, coding, document preparation, integration, testing, maintenance, updates, re-testing and phase-out.
 
 ## What is the role of documentation in QA
@@ -41,12 +88,13 @@ A test case is a document that describes an input, action, or event and its expe
 
 Please note, the process of developing test cases can help find problems in the requirements or design of an application, since it requires you to completely think through the operation of the application. For this reason, it is useful to prepare test cases early in the development cycle, if possible. 
 
+## What does the test strategy include 
+The test strategy includes an introduction, resource, scope and schedule for test activities, test tools, test priorities, test planning and the types of tests that has to be performed. 
 
-## What is software quality assurance 
-Software Quality Assurance is oriented to *prevention*. It involves the entire software development process. Prevention is monitoring and improving the process, making sure any agreed-upon standards and procedures are followed and ensuring problems are found and dealt with. 
+## What is Traceability matrix?
+The requirements specified by the users in the business requirement document may not be exactly translated into a functional specification. There will be a trace on between functional specification and business requirements. It is done on a one-to-one basis. This helps finding the gap between the documents. These gaps are the closed by the author of the Functional specifications (FS) or deferred after discussions 
 
-## What is quality assurance 
-Quality Assurance ensures all parties concerned with the project adhere to the process and procedures, standards and templates and test readiness reviews. A lot will depend on team leads or managers, feedback to developers and communications among customers, managers and testers.
+Testers should understand these gaps and use them after getting this signed off from the author of the FS. The final FS form may vary from the original
 
 ## Standards and templates - what is supposed to be in a document 
 All documents should be written to a certain standard and template. Standards and templates maintain document uniformity. It also helps in learning where information is located, making it easier for a user to find what they want. 
@@ -65,6 +113,9 @@ Unit testing is the first level of dynamic testing and is first the responsibili
  
 ## What is functional testing
 Functional testing is black-box type of testing geared to functional requirements of an application. Test engineers *should* perform functional testing. 
+
+## What is Adhoc testing
+It is a testing phase where the tester tries to break the system by randomly trying the system's functionality. It can include negative testing as well. 
 
 ## What is integration testing
 Upon completion of unit testing, integration testing begins. Integration testing is black box testing. The purpose of integration testing is to ensure distinct components of the application still work in accordance with customer requirements. Test cases are developed with the express purpose of exercising the interfaces between the components. This activity is carried out by the test team. Integration testing is considered complete, when actual results and expected results are either in line or differences are explainable/acceptable based on client input.
@@ -105,10 +156,8 @@ Alpha testing is testing of an application when the development is nearing compl
 ## What is beta testing? 
 Beta testing is testing an application when development and testing are essentially completed, and final bugs and problems need to be found before the final release. Beta testing is typically performed by end-users or others, not programmers, software engineers, or test engineers.
 
-## What is Traceability matrix?
-The requirements specified by the users in the business requirement document may not be exactly translated into a functional specification. There will be a trace on between functional specification and business requirements. It is done on a one-to-one basis. This helps finding the gap between the documents. These gaps are the closed by the author of the Functional specifications (FS) or deferred after discussions 
-
-Testers should understand these gaps and use them after getting this signed off from the author of the FS. The final FS form may vary from the original
+## What is data driven testing 
+Data driven testing is an automation testing framework, which tests the different input values on the AUT. These values are read directly from the data files. The data files may include csv files, excel files, data pools and many more
 
 ## What is configuration management? 
 Configuration management (CM) covers the tools and processes used to control, coordinate and track code, requirements, documentation, problems, change requests, designs, tools, compilers, libraries, patches, changes made to them and who makes the changes
@@ -118,21 +167,6 @@ Work with management early on to understand how requirements might change, so th
 
 ## What if the application has functionality that wasn't in the requirements? 
 It may take serious effort to determine if an application has significant unexpected or hidden functionality, which it would indicate deeper problems in the software development process. If the functionality isn't necessary to the purpose of the application, it should be removed, as it may have unknown impacts or dependencies that were not taken into account by the designer or the customer. 
-
-## Why do you recommend that we test during the design phase? 
-Because testing during the design phase can prevent defects later on. We recommend verifying three things... 
-1. Verify the design is good, efficient, compact, testable and maintainable. 
-2. Verify the design meets the requirements and is complete (specifies all relationships between modules, how to pass data, what happens in exceptional circumstances, starting state of each module and how to guarantee the state of each module). 
-3. Verify the design incorporates enough memory, I/O devices and quick enough runtime for the final product.
-
-## What makes a good test engineer? 
-Has a "test to break" attitude. 
-1. Takes the point of view of the customer,
-2. Has a strong desire for quality, 
-3. Has an attention to detail, He's also 
-4. Tactful and diplomatic and 
-5. Has good a communication skill, both oral and written. And he 
-6. Has previous software development experience, too.
 
 ## Why are there so many software bugs? 
 Generally speaking, there are bugs in software because of unclear requirements, software complexity, programming errors, changes in requirements, errors made in bug tracking, time pressure, poorly documented code and/or bugs in tools used in software development.
@@ -159,6 +193,9 @@ This can be difficult to determine. Many modern software applications are so com
 4. Coverage of code, functionality, or requirements reaches a specified point; 
 5. Bug rate falls below a certain level; or 
 6. Beta or alpha testing period ends.
+
+## What is Agile testing and what is the importance of Agile testing 
+Agile testing is software testing, is testing using Agile Methodology. The importance of this testing is that, unlike normal testing process, this testing does not wait for the development team to complete the coding first and then doing testing. The coding and testing both go simultaneously. It requires continuous customer interaction. 
 
 ## Authors
 
