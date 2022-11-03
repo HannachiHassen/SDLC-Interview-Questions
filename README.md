@@ -197,6 +197,69 @@ This can be difficult to determine. Many modern software applications are so com
 ## What is Agile testing and what is the importance of Agile testing 
 Agile testing is software testing, is testing using Agile Methodology. The importance of this testing is that, unlike normal testing process, this testing does not wait for the development team to complete the coding first and then doing testing. The coding and testing both go simultaneously. It requires continuous customer interaction. 
 
+## Mention the different types of software testing? 
+•	Unit testing
+•	Integration testing and regression testing
+•	System testing
+•	Smoke testing
+•	Functional testing
+•	White box and Black box testing
+•	Performance testing
+•	Alpha and Beta testing
+•	Load testing and stress testing
+•	Shakeout testing
+
+## List out various tools required to support testing during development of the application?
+•	Test Management Tools: JIRA, Quality Center etc.
+•	Defect Management Tools: Test Director, Bugzilla
+•	Project Management Tools: SharePoint
+•	Automation Tools: RFT, QTP, and WinRunner, Selenium
+
+## What is Business Design Document? 
+It is the document that describes the application functionalities of the user in detail. This document has the further details of the Business Requirement Document. This is a very crucial step in Software Development Life Cycle (SDLC). Sometimes the Business Requirement Document and Business Design Document can be lumped together to make only one Business Requirement Document.
+
+## What is a Review? 
+A review is an evaluation of a said product or project status to ascertain any discrepancies from the actual planned results and to recommend improvements to the said product. The common examples of reviews are informal review or peer review, technical review, inspection, walkthrough, management review. This is one of the manual testing interview questions.
+
+## What is walk-through meeting? 
+Once the Business Analysts complete the requirement document, they call a meeting to explain how the functionalities work, what the process is in the designed application and other details. The Business Analysts explain the high level functionalities of the application (software) that is going to the built. The participant members in the meeting may provide feed back and various point of views are expressed. This is walk-through meeting.
+
+## Explain priority, severity in software testing? 
+Priority is the level of business importance, which is assigned to a defect found. On the other hand, severity is the degree of impact, the defect can have on the development or operation of the component or the system.
+
+## Is quality assurance and testing the same?
+Quality assurance and testing is not the same. Testing is considered to be a
+subset of QA. QA is should be incorporated throughout the software development
+life cycle while testing is the phase that occurs after the coding phase.
+
+## What is the difference between QA and testing?
+The goals of QA are very different from the goals of testing. The purpose of QA
+is to prevent errors is the application while the purpose of testing is to find
+errors.
+
+## What is the difference between Quality Control and Quality Assurance?
+Quality control (QC) and quality assurance (QA) are closely linked but are very
+different concepts. While QC evaluates a developed product, the purpose of QA is
+to ensure that the development process is at a level that makes certain that the
+system or application will meet the requirements.
+
+## What is the difference between regression testing and retesting?
+Regression testing is performing tests to ensure that modifications to a module
+or system do not have a negative effect on previous releases. Retesting is
+merely running the same testing again.
+
+## Can you test a program and find 100% of the errors?
+It is impossible to fine all errors in an application mostly because there is no
+way to calculate how many errors exist. There are many factors involved in such
+a calculation such as the complexity of the program, the experience of the
+programmer, and so on.
+
+## What is the difference between debugging and testing?
+The main difference between debugging and testing is that debugging is typically
+conducted by a developer who also fixes errors during the debugging phase.
+Testing on the other hand, finds errors rather than fixes them. When a tester
+finds a bug, they usually report it so that a developer can fix it.
+
 ## Authors
 
 * **Hassen Hannachi** - *Initial work* - [HassenHannachi](https://github.com/HannachiHassen)
