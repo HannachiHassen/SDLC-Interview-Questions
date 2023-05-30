@@ -2,6 +2,41 @@ The Software Development Life Cycle, or SDLC, is a method for producing high-qua
 
 # SDLC Interview Questions
 
+## Why is Testing Necessary
+
+Testing is necessary in order to identify any defects that are present in software which can cause harm. Without proper testing, we could potentially release a software which could malfunction and cause serious injuries.
+Examples can be:
+  - Software in a life support machine which can cause serious harm to a patient;
+  - Software in a nuclear plant which monitors nuclear activity can cause harm to the environment
+  - Banking or financial application which calculates exchange rates can cause financial loss to a business
+
+## When should you stop the testing process
+
+The testing activity ends when the testing team completes the following milestones.
+
+- Test case execution: The successful completion of a full test cycle after the final bug fix marks the end of the testing phase.
+- Testing deadline: The end date of the validation stage also declares the closure of the validation if no critical or high-priority defects remain in the system.
+Code Coverage(CC) ratio: It is the amount of code concealed via automated tests. If the team achieves the intended level of code coverage (CC) ratio, then it can choose to end the validation.
+
+- Mean Time Between Failure (MTBF) rate: Mean time between failure (MTBF) refers to the average amount of time that a device or product functions before failing. This unit of measurement includes only operational time between failures and does not include repair times, assuming the item is repaired and begins functioning again. MTBF figures are often used to project how likely a single unit is to fail within a certain period of time
+
+## What is meant by test coverage
+
+Test coverage is a quality metric to represent the amount (in percentage) of testing completed for a product. It is relevant for both functional and non-functional testing activities. This metric is used to add missing test cases.
+
+## Is it possible to achieve 100% testing coverage? How would you ensure it
+
+It’s considered not possible to perform 100% testing of any product. But you can follow the below steps to come closer.
+- Set a hard limit on the following factors:
+   - Percentage of test cases passed
+   - Number of bugs found
+- Set a red flag if:
+  - Test budget is depleted
+  - Deadlines are breached
+- Set a green flag if:
+  - The entire functionality gets covered in test cases
+  - All critical and major bugs must have a ‘CLOSED’ status
+
 ## What is verification
 Verification ensures the product is designed to deliver all functionality to the customer; it typically involves reviews and meetings to evaluate documents, plans, code, requirements, and specifications; this can be done with checklists, issues list, and walkthroughs and inspection meetings.
 
@@ -261,6 +296,19 @@ The main difference between debugging and testing is that debugging is typically
 conducted by a developer who also fixes errors during the debugging phase.
 Testing on the other hand, finds errors rather than fixes them. When a tester
 finds a bug, they usually report it so that a developer can fix it.
+
+## What is bug leakage and bug release?
+
+- Bug release is when software or an application is handed over to the testing team knowing that the defect is present in a release. During this the priority and severity of bug is low, as bug can be removed before the final handover.
+
+- Bug leakage is something, when the bug is discovered by the end users or customer, and not detected by the testing team while testing the software.
+
+## What is the difference between build and release?
+
+- Build: It is a number given to Installable software that is given to the testing team by the development team.
+- Release: It is a number given to Installable software that is handed over to the customer by the tester or developer.
+
+
 
 ## Authors
 
