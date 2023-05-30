@@ -1,3 +1,5 @@
+The Software Development Life Cycle, or SDLC, is a method for producing high-quality, low-cost software in the least amount of time. SDLC is a well-structured flow of stages that enables a company to swiftly develop high-quality software that has been thoroughly tested and is ready for production. To assure high-quality goods or services development in hardware or software organisations, this Software Development Life Cycle will ensure delivery of efficient and high-quality software or hardware products to the end customer or clients.
+
 # SDLC Interview Questions
 
 ## What is verification
