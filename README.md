@@ -261,59 +261,38 @@ A review is an evaluation of a said product or project status to ascertain any d
 ## What is walk-through meeting? 
 Once the Business Analysts complete the requirement document, they call a meeting to explain how the functionalities work, what the process is in the designed application and other details. The Business Analysts explain the high level functionalities of the application (software) that is going to the built. The participant members in the meeting may provide feed back and various point of views are expressed. This is walk-through meeting.
 
-## Explain priority, severity in software testing? 
+## Explain priority, severity in software testing
 Priority is the level of business importance, which is assigned to a defect found. On the other hand, severity is the degree of impact, the defect can have on the development or operation of the component or the system.
 
-## Is quality assurance and testing the same?
-Quality assurance and testing is not the same. Testing is considered to be a
-subset of QA. QA is should be incorporated throughout the software development
+## Is quality assurance and testing the same
+Quality assurance and testing is not the same. Testing is considered to be a subset of QA. QA is should be incorporated throughout the software development
 life cycle while testing is the phase that occurs after the coding phase.
 
-## What is the difference between QA and testing?
-The goals of QA are very different from the goals of testing. The purpose of QA
-is to prevent errors is the application while the purpose of testing is to find
+## What is the difference between QA and testing
+The goals of QA are very different from the goals of testing. The purpose of QA is to prevent errors is the application while the purpose of testing is to find
 errors.
 
-## What is the difference between Quality Control and Quality Assurance?
-Quality control (QC) and quality assurance (QA) are closely linked but are very
-different concepts. While QC evaluates a developed product, the purpose of QA is
-to ensure that the development process is at a level that makes certain that the
-system or application will meet the requirements.
+## What is the difference between Quality Control and Quality Assurance
+Quality control (QC) and quality assurance (QA) are closely linked but are very different concepts. While QC evaluates a developed product, the purpose of QA is
+to ensure that the development process is at a level that makes certain that the system or application will meet the requirements.
 
-## What is the difference between regression testing and retesting?
-Regression testing is performing tests to ensure that modifications to a module
-or system do not have a negative effect on previous releases. Retesting is
+## What is the difference between regression testing and retesting
+Regression testing is performing tests to ensure that modifications to a module or system do not have a negative effect on previous releases. Retesting is
 merely running the same testing again.
 
-## Can you test a program and find 100% of the errors?
-It is impossible to fine all errors in an application mostly because there is no
-way to calculate how many errors exist. There are many factors involved in such
-a calculation such as the complexity of the program, the experience of the
-programmer, and so on.
+## Can you test a program and find 100% of the errors
+It is impossible to fine all errors in an application mostly because there is no way to calculate how many errors exist. There are many factors involved in such
+a calculation such as the complexity of the program, the experience of the programmer, and so on.
 
-## What is the difference between debugging and testing?
-The main difference between debugging and testing is that debugging is typically
-conducted by a developer who also fixes errors during the debugging phase.
-Testing on the other hand, finds errors rather than fixes them. When a tester
-finds a bug, they usually report it so that a developer can fix it.
+## What is the difference between debugging and testing
+The main difference between debugging and testing is that debugging is typically conducted by a developer who also fixes errors during the debugging phase.
+Testing on the other hand, finds errors rather than fixes them. When a tester finds a bug, they usually report it so that a developer can fix it.
 
-## What is bug leakage and bug release?
-
+## What is bug leakage and bug release
 - Bug release is when software or an application is handed over to the testing team knowing that the defect is present in a release. During this the priority and severity of bug is low, as bug can be removed before the final handover.
 
 - Bug leakage is something, when the bug is discovered by the end users or customer, and not detected by the testing team while testing the software.
 
-## What is the difference between build and release?
-
+## What is the difference between build and release
 - Build: It is a number given to Installable software that is given to the testing team by the development team.
 - Release: It is a number given to Installable software that is handed over to the customer by the tester or developer.
-
-
-
-## Authors
-
-* **Hassen Hannachi** - *Initial work* - [HassenHannachi](https://github.com/HannachiHassen)
-
-## License
-
-This project is not under any License - Open source 
